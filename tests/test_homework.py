@@ -4,6 +4,9 @@
 # pylint: disable=import-error
 
 import os
+import sys
+
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'homework')))
 
 from homework.queries import run
 
